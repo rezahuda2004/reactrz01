@@ -5,6 +5,7 @@ import Text from './components/Text/Text';
 import Button from './components/Button/Button';
 import Loginpages from './pages/loginpages/Loginpages';
 import Profile from './pages/profilepages/Profilepages';
+import About from './pages/aboutpages/Aboutpages';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Button/>
     <Loginpages/>
     <Profile/>
+    <About/>
     </div>
   );
 }
